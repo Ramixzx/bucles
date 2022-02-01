@@ -4,7 +4,8 @@
   "description": "Modulo de bucles en JavaScript. Greelow segunda etapa \"Febrero\"",
   "main": "src/index.js",
   "scripts": {
-    "ejercicio1": "node src/ejercicio1/index.js"
+    "ejercicio1": "node src/ejercicio1/index.js",
+    "ejercicio2": "node src/ejercicio2/index.js"
   },
   "repository": {
     "type": "git",
