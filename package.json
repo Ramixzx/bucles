@@ -7,7 +7,8 @@
     "ejercicio1": "node src/ejercicio1/index.js",
     "ejercicio2": "node src/ejercicio2/index.js",
     "ejercicio3": "node src/ejercicio3/index.js",
-    "ejercicio4": "node src/ejercicio4/index.js"
+    "ejercicio4": "node src/ejercicio4/index.js",
+    "ejercicio5": "node src/ejercicio5/index.js"
   },
   "repository": {
     "type": "git",
