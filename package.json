@@ -1,0 +1,23 @@
+{
+  "name": "bucles",
+  "version": "1.0.0",
+  "description": "Modulo de bucles en JavaScript. Greelow segunda etapa \"Febrero\"",
+  "main": "src/index.js",
+  "scripts": {
+    "ejercicio1": "node src/ejercicio1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramixzx/bucles.git"
+  },
+  "keywords": [
+    "for",
+    "while"
+  ],
+  "author": "Ramiro Elias Mijalovich (Ramixzx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ramixzx/bucles/issues"
+  },
+  "homepage": "https://github.com/Ramixzx/bucles#readme"
+}
