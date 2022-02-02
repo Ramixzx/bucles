@@ -14,7 +14,8 @@
     "ejercicio8": "node src/ejercicio8/index.js",
     "ejercicio9": "node src/ejercicio9/index.js",
     "ejercicio10": "node src/ejercicio10/index.js",
-    "ejercicio11": "node src/ejercicio11/index.js"
+    "ejercicio11": "node src/ejercicio11/index.js",
+    "ejercicio12": "node src/ejercicio12/index.js"
 
   },
   "repository": {
