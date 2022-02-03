@@ -1,37 +1,24 @@
-let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bibendum turpis Curabitur scelerisque eros ultricies venenatis mi at tempor nisl Integer tincidunt accumsan cursus"
-
+let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bibendum turpis Curabitur scelerisque eros ultricies venenatis mi at tempor nisl Integer tincidunt accumsan cursus";
+// All letters in the string are converted to lowercase
 let cadena = par.toLowerCase();
 
 let counts = {};
 
+// In this cycle, what is done is to save each letter in the counts object as if they were properties (without taking into account the white spaces).
 for(let i = 0; i < cadena.length; i++){
+        if(cadena[i] !== ' '){
+            counts[cadena[i]] = 0;
+        } 
+}
 
-    let letra = cadena[i]
-
-    if (letra !== counts[letra]) {
-        counts[letra] = 0;
-    } 
-    
+// The for loop iterates the text letter by letter
+for(let i = 0; i < cadena.length; i++){
+    // For each letter in the string, if it matches an existing property on the counts object, add one to the value of that property
+    for(letra in counts){
+        if(letra === cadena[i]){
+            counts[letra] += 1;
+        } 
+    }
 }
 
 console.log(counts)
-
-
-
-
-
-
-
-
-
-
-// your code here
-
-
-
-
-//Nuestro cliente necesita un programa que cuente las repeticiones de las letras en un string
-// dado. Sé que es extraño, pero son muy testarudos ¡ Lo necesitamos lo antes posible!
-
-//Crea un objeto donde las letras son las propiedades y los valores son el número de
-//veces que esa letra se repite en toda la cadena.
